@@ -1,1 +1,0 @@
-/* Animation Contact được quản lý chung trong pages.js. */
