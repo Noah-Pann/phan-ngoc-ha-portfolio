@@ -768,10 +768,9 @@
       const grid = element("div", "icon-pack-grid");
 
       icons.forEach((icon) => {
-        const source = encodeURI(
-          `selected works/icon-packs/${size}x${size}/${icon.file}.png`
-        );
-
+const source = encodeURI(
+  `selected works/projects/icons/${size}x${size}/${icon.file}.png`
+);
         const figure = element(
           "figure",
           "icon-pack-card"
