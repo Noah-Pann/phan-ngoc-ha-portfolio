@@ -9,6 +9,7 @@
 
   const fullVideoLinks = {
     "to-te-ti": "https://youtu.be/o9tZ5YfhDGU",
+    "daddys-here": "https://youtu.be/7vULyacieEw",
     "excretory-haki": "https://youtu.be/s3KKLBIHvk8",
     "sentinel": "https://youtu.be/sAuPRpSftps"
   };
@@ -16,22 +17,184 @@
   /* ========================================
      THÔNG TIN PROJECT
      ======================================== */
-
   const projects = [
     {
       id: "to-te-ti",
+      folder: "to-te-ti",
       title: "Tò Te Tí",
       category: "Mixed-media Music Video",
       year: "2026",
+      format: "Group project · 2 members",
       video: "MV.webm",
 
       description:
-        "A playful romance takes a complicated turn in a mixed-media music video about blurred boundaries and hidden relationships.",
+        "A playful mixed-media music video about a seemingly sweet romance with a hidden complication: the girl is already dating the other guy’s friend. Live action, low-poly 3D and 2D animation turn this tangled relationship into a game-inspired story.",
 
-      process: []
+      contribution:
+        "Co-direction, concept and narrative development, art direction, storyboarding and animatic, 3D environment creation, texturing for all 3D characters, 2D animation and visual elements, editing assistance and production support.",
+
+      process: [
+        {
+          title: "Story Development & Animatic",
+          text:
+            "Our team developed a lighthearted romance with a hidden relationship at its centre. I contributed to the narrative, storyboards and animatic, helping connect the living-room gaming scene, private messages and romantic encounters. We used these sequences to plan framing, character gestures and camera movement before production.",
+
+          images: [
+            {
+              file: "01-living-room-storyboard.webp",
+              caption:
+                "Team storyboard: a living-room gaming scene introduces the three characters and their relationship.",
+              wide: true
+            },
+            {
+              file: "02-messages-storyboard.webp",
+              caption:
+                "Team storyboard: private messages and everyday routines lead into the characters’ meeting.",
+              wide: true
+            },
+            {
+              file: "03-romantic-encounter-storyboard.webp",
+              caption:
+                "Team storyboard: gestures and close-ups develop the romantic encounter.",
+              wide: true
+            }
+          ]
+        },
+
+        {
+          title: "3D Environment & Character Texturing",
+          text:
+            "I created the street-food environment in Blender and textured all of the 3D characters. Their outfit variations connect the low-poly designs with the costumes in the live-action scenes. My teammate created the character models and handled their 3D animation.",
+
+          images: [
+            {
+              file: "04-female-character-textures.webp",
+              caption:
+                "Female character outfit variations. Texturing by me; character modelling by Nguyen Thi Xuan Hien.",
+              wide: true
+            },
+            {
+              file: "05-male-character-textures.webp",
+              caption:
+                "Male character outfit variations and supporting character. Texturing by me; character modelling by Nguyen Thi Xuan Hien.",
+              wide: true
+            },
+            {
+              file: "06-3d-environment.webp",
+              caption:
+                "The street-food environment I created in Blender for the music video.",
+              wide: true
+            }
+          ]
+        },
+
+        {
+          title: "2D Animation & Mixed-media Assembly",
+          text:
+            "I created 2D animation and visual elements and assisted with editing to bring the live-action footage, 3D scenes and game-inspired imagery together. The secret-kissing sequence turns the relationship conflict into gameplay, moving from outfit selection to discovery and a losing screen. My teammate handled the main compositing and edit.",
+
+          images: [
+            {
+              file: "07-game-sequence-storyboard.webp",
+              caption:
+                "Team storyboard planning the game sequence: outfit selection, secret kissing, discovery and the losing screen.",
+              wide: true
+            }
+          ]
+        }
+      ]
     },
 
-    {
+        {
+      id: "daddys-here",
+      folder: "daddys-here",
+      title: "Daddy’s Here",
+      category: "Mixed-media Animated Short",
+      year: "2026",
+      format: "Group project · 4 members · 20 seconds",
+      video: "daddys-here.webm",
+
+      description:
+        "Set in a child’s bedroom in Saigon during a nighttime storm, Daddy’s Here follows a little girl who mistakes a toy’s shadow for a monster. Her father’s arrival turns fear into reassurance in a 20-second film combining clay stop-motion, hand-drawn 2D effects and 3D environments.",
+
+      contribution:
+        "Concept development, design of both characters, animatic, 3D lighting and monster shadow, all hand-drawn 2D effects and animation, and green screen keying assistance. Puppet fabrication and stop-motion production were shared across the team.",
+
+      process: [
+        {
+          title: "Character Design & Animatic",
+          text:
+            "I designed both the father and daughter, exploring contrasting proportions for a small, expressive child and a taller, reassuring father. Sketches and colour studies helped develop their appearance for the clay puppets. I also worked on the animatic, using the team’s storyboard to plan the shift from fear to comfort.",
+
+          images: [
+            {
+              file: "01-girl-design.webp",
+              caption:
+                "My sketches and colour studies exploring the little girl’s proportions, expression and outfit."
+            },
+            {
+              file: "02-father-sketches.webp",
+              caption:
+                "My early sketches exploring the father’s proportions and appearance."
+            },
+            {
+              file: "03-team-storyboard.webp",
+              caption:
+                "Team storyboard mapping the progression from the child’s fear to her father’s reassuring arrival.",
+              wide: true
+            }
+          ]
+        },
+
+        {
+          title: "Puppet Making & Stop-motion",
+          text:
+            "As a team, we translated the character designs into physical puppets and filmed their performances using stop-motion. Early tests revealed problems with weight, balance and unwanted movement. We reinforced supports, simplified puppet parts and stabilised the bedding to make the animation easier to control.",
+
+          images: [
+            {
+              file: "04-puppet-development.webp",
+              caption:
+                "Shared puppet-making process, including clay forms, costume details and replacement hands.",
+              wide: true
+            },
+            {
+              file: "05-stop-motion-production.webp",
+              caption:
+                "Team stop-motion production: staging and filming the father’s approach and hug sequence.",
+              wide: true
+            }
+          ]
+        },
+
+        {
+          title: "Lighting & Hand-drawn Effects",
+          text:
+            "I worked on 3D lighting and the monster shadow to establish the frightening atmosphere. I created all hand-drawn 2D effects, including the cape and impact frames for the father’s heroic entrance, and assisted with green screen keying. These elements were combined with the team’s 3D environments and final compositing to connect the physical puppets with the digital setting.",
+
+          images: [
+            {
+              file: "06-3d-environment.webp",
+              caption:
+                "Team 3D environment workflow. My contribution focused on lighting and the monster shadow.",
+              wide: true
+            },
+            {
+              file: "07-keying-process.webp",
+              caption:
+                "Team post-production examples showing puppet isolation and background removal; I assisted with green screen keying.",
+              wide: true
+            },
+            {
+              file: "08-hand-drawn-effects.webp",
+              caption:
+                "My hand-drawn 2D effects for the father’s heroic entrance, shown within the team’s composite.",
+              wide: true
+            }
+          ]
+        }
+      ]
+    },{
       id: "excretory-haki",
       folder: "constipation",
       title:
@@ -844,16 +1007,7 @@ const source = encodeURI(
     description.id = "project-description";
     content.append(description);
 
-    // Chú thích riêng cho Tò Te Tí.
-    if (project.id === "to-te-ti") {
-      content.append(
-        element(
-          "p",
-          "project-coming-soon",
-          "More information coming soon."
-        )
-      );
-    }
+
 
     if (project.format || project.contribution) {
       const contribution = element(

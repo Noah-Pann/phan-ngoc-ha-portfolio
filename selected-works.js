@@ -24,7 +24,21 @@
         isWebsite: false,
         websiteUrl: ""
       },
-      {
+            {
+        title: "Daddy’s Here",
+        shortTitle: "Daddy’s Here",
+        category: "Mixed-media Animated Short",
+        year: "2026",
+        brief:
+          "A frightened child mistakes a toy’s shadow for a monster, until her father turns a stormy night into a moment of comfort.",
+        poster: "",
+        crop: "50% 50%",
+        color: "#827b62",
+        projectUrl: "project.html?project=daddys-here",
+        isWebsite: false,
+        websiteUrl: ""
+      },{
+        
         title:
           "When Constipation Became the Ultimate Villain and I Had to Awaken My Excretory Haki",
         shortTitle: "Excretory Haki",

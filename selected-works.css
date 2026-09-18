@@ -835,3 +835,53 @@
     --works-star-bottom: 10px;
   }
 }
+/* ========================================
+   SELECTED WORKS — CHỖ CHO 8 PROJECT
+   ======================================== */
+
+/* Giảm khoảng cách giữa các thẻ */
+.works-page {
+  --card-gap: clamp(5px, 0.6vw, 9px);
+}
+
+/* Chia thêm diện tích cho gallery trên desktop */
+@media (min-width: 851px) {
+  .works-gallery {
+    grid-template-columns: minmax(0, 1.9fr) minmax(0, 1fr);
+    gap: clamp(24px, 3vw, 44px);
+  }
+}
+
+/* Các thẻ nhỏ tự chia đều phần còn lại */
+.works-track > .work-card {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+/* Giữ thẻ đang chọn nổi bật khi có thêm project */
+.works-track > .work-card.is-selected {
+  flex: 3.1 1 0;
+}
+
+/* Mobile: giữ kích thước dễ bấm và cho vuốt ngang */
+@media (max-width: 520px) {
+  .works-viewport {
+    overflow-x: auto;
+    padding: 5px 3px 70px;
+    overscroll-behavior-x: contain;
+  }
+
+  .works-track {
+    min-width: 510px;
+  }
+
+  .works-track > .work-card {
+    flex: 1 0 44px;
+    min-width: 44px;
+  }
+
+  .works-track > .work-card.is-selected {
+    flex: 3.1 0 150px;
+    min-width: 150px;
+  }
+}

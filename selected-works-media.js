@@ -32,7 +32,14 @@
         end: 11.8,
         crop: "50% 50%"
       },
-      {
+            {
+        title: "Daddy’s Here",
+        file: "daddys-here.webm",
+        still: 2,
+        start: 0,
+        end: 20,
+        crop: "50% 50%"
+      },{
         title:
           "When Constipation Became the Ultimate Villain and I Had to Awaken My Excretory Haki",
         file: "constipation animation.webm",
